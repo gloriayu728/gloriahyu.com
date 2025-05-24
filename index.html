@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+
+  <!-- 1️⃣ Canonical tells Google the *destination* URL is the authoritative copy -->
+  <link rel="canonical" href="https://www.gloriahyu.com">
+
+  <!-- 2️⃣ Meta‑refresh performs an instant redirect in almost every browser -->
+  <meta http-equiv="refresh" content="0; url=https://www.gloriahyu.com">
+
+  <!-- 3️⃣ JavaScript fallback covers browsers that ignore the meta tag -->
+  <script>location.replace("https://www.gloriahyu.com");</script>
+
+  <!-- Cosmetic only -->
+  <style>body{font-family:system-ui, sans-serif; padding:2rem}</style>
+</head>
+<body>
+  You are being redirected to
+  <a href="https://www.gloriahyu.com">https://www.gloriahyu.com</a>…
+</body>
+</html>
